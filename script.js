@@ -10,6 +10,6 @@ generateBtn.addEventListener("click", () => {
     qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=170x170&data=${qrValue}`;
     qrImg.addEventListener("load", () => {
         wrapper.classList.add('active');
-        generateBtn.innerText = 'Generating QR Code';
+        generateBtn.innerText = 'Generate QR Code';
     });
 });
